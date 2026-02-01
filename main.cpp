@@ -49,6 +49,9 @@ int main(){
 
 // 9. Segovia Giancarlo
 // fibonacci
+    std::cout << "Demo Giancarlo Segovia" << std::endl;
+    x = 6;
+    std::cout << "Fibonacci de " << x << " es " << fibonacci(x) << "\n\n";
 
 // 10. Suarez Maciel Susana Isabel
 // average()
@@ -61,6 +64,6 @@ int main(){
 
 // 13. Vilca Aguilar Luis
 // root
-    
+
     return 0;
 }

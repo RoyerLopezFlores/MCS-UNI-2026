@@ -27,6 +27,7 @@ unsigned int factorial(unsigned int number);
 
 // 9. Segovia Giancarlo
 // fibonacci
+int fibonacci(int n);
 
 // 10. Suarez Maciel Susana Isabel
 // average()

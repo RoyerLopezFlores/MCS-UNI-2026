@@ -42,7 +42,11 @@ unsigned int factorial(unsigned int number){
 
 
 // 9. Segovia Giancarlo
-
+int fibonacci(int n){
+    if(n <= 0) return 0;
+    if(n == 1) return 1;
+    return fibonacci(n - 1) + fibonacci(n - 2);
+}
 
 // 10. Suarez Maciel Susana Isabel
 
