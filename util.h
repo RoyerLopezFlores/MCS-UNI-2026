@@ -39,4 +39,4 @@ void intercambiar(int &a, int &b);
 // root
 
 // 14. Vinatea Chávez Camilo Jorge
-// power
+float power(float base, int exponent);
