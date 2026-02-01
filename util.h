@@ -37,6 +37,7 @@ void intercambiar(int &a, int &b);
 
 // 13. Vilca Aguilar Luis
 // root
+float raiz(float a);
 
 // 14. Vinatea Chávez Camilo Jorge
 // power
