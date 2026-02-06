@@ -12,7 +12,10 @@ void intercambiar(T &a, T &b){
 }
 
 // 3. Diaz Tapia Adderly
-double subtraction (Ts n, Ts m);
+template <typename T>
+T subtraction (T n, T m){
+    return n-m;
+}
 
 // 4. Lopez Flores Royer Amed
 // multiplication

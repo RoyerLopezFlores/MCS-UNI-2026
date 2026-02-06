@@ -11,9 +11,8 @@ IntParam addition(IntParam a, IntParam b) {
 // Los template se implementan en el .h, no en el .cpp
 
 // 3. Diaz Tapia Adderly
-Ts subtraction (Ts n, Ts m){
-    return n-m;
-}
+//Implementado en .h
+
 // 4. Lopez Flores Royer Amed
 MultParam multiplicar(MultParam &a, MultParam &b){
     return a * b;
