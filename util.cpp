@@ -78,9 +78,10 @@ float raiz(float a){
 }
 
 // 14. Vinatea Chávez Camilo Jorge
-T14 power(T14 base, T1 exponent){
+/*T14 power(T14 base, T1 exponent){
     T14 result = 1.0;
     for(T1 i = 0; i < exponent; ++i)
         result *= base;
     return result;
-}
+    
+}*/

@@ -52,4 +52,11 @@ float average(int x, int y);
 float raiz(float a);
 
 // 14. Vinatea Chávez Camilo Jorge
-float power(float base, int exponent);
+template <typename X, typename Y>
+X power(X base, Y exponent){
+    X result = 1.0;
+    for(Y i = 0; i < exponent; ++i)
+        result *= base;
+    return result;
+}
+
