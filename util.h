@@ -38,7 +38,10 @@ float division(float &f1, float &f2);
 
 // 6. Mallaupoma Cesar
 // genera un numero aleatorio
-int generarNumAleatorio();
+template <typename T>
+T generarNumAleatorio(){
+    return static_cast<T>(std::rand() % 10);
+}
 
 // 7. Miranda Zarate Jorge Luis
 // factorial
@@ -85,7 +88,8 @@ T average(const T& a, const T& b){
 // 11. Tellez Jhon
 // sumar 10 numeros naturales
 
-int numero( int n);
+
+int numero( int x);
 
 // 12. Valcarcel Julian
 // float round(float f, int n)

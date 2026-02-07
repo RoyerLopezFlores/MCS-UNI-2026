@@ -26,9 +26,7 @@ float division(float &f1, float &f2)
     return(f3) ;
 }
 // 6. Mallaupoma Cesar
-int generarNumAleatorio(){
-    return rand() % 10;
-}
+//
 
 // 7. Miranda Zarate Jorge Luis
 // Los template se implementan en el .h, no en el .cpp
