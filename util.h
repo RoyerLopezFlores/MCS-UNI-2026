@@ -28,8 +28,8 @@ T subtraction (T n, T m){
 
 // 4. Lopez Flores Royer Amed
 // multiplication
-template <typename MultTemp>
-MultTemp multiplicar(MultTemp &a, MultTemp &b){
+template <typename T>
+T multiplicar(T &a, T &b){
     return a * b;
 }
 // 5. López Sandoval, Heiner
@@ -110,6 +110,39 @@ X power(X base, Y exponent){
         result *= base;
     return result;
 }
+
+void DemoInicial();
+
+// 1. Bernaola Gayoso - César Raúl
+
+// 2. Cuadros-Vargas Ernesto
+void DemoInicialCuadrosVargas();
+
+// 3. Diaz Tapia Adderly
+
+// 4. Lopez Flores Royer Amed
+
+// 5. López Sandoval, Heiner
+
+// 6. Mallaupoma Cesar
+
+// 7. Miranda Zarate Jorge Luis
+
+// 8. Riveros Guevara
+
+// 9. Segovia Giancarlo
+
+// 10. Suarez Maciel Susana Isabel.
+
+// 11. Tellez Jhon
+
+// 12. Valcarcel Julian
+
+// 13. Vilca Aguilar Luis
+
+// 14. Vinatea Chávez Camilo Jorge  
+
+
 
 #endif // __UTIL_H__
 
